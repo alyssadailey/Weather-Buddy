@@ -1,4 +1,7 @@
 import { Router } from 'express';
+import HistoryService from 'server/src/service/historyService.js'
+import WeatherService from 'server/src/service/weatherService.js'
+
 const router = Router();
 
 // import HistoryService from '../../service/historyService.js';
@@ -8,6 +11,7 @@ const router = Router();
 router.post('/', (req, res) => {
   // TODO: GET weather data from city name
   // TODO: save city to search history
+  
 });
 
 // TODO: GET search history
